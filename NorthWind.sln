@@ -11,11 +11,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interface Adapters", "Inter
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frameworks And Drivers", "Frameworks And Drivers", "{48C44899-5A56-42AD-96A0-01E5C1A22641}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Entities", "NorthWind.Entities\NorthWind.Entities.csproj", "{876EE632-BBB8-4CAA-B6BA-9E657316807A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NorthWind.Entities", "NorthWind.Entities\NorthWind.Entities.csproj", "{876EE632-BBB8-4CAA-B6BA-9E657316807A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateways", "Gateways", "{59883629-D480-4C15-A24D-F8ACDBEEFCF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Repositories.EFCore", "NorthWind.Repositories.EFCore\NorthWind.Repositories.EFCore.csproj", "{E90420C9-B67E-4D7F-AF80-9092626DF9C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NorthWind.Repositories.EFCore", "NorthWind.Repositories.EFCore\NorthWind.Repositories.EFCore.csproj", "{E90420C9-B67E-4D7F-AF80-9092626DF9C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.UseCasesDTOs", "NorthWind.UseCasesDTOs\NorthWind.UseCasesDTOs.csproj", "{6738C04F-C56F-4B01-BCAC-625BA13FBC3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{E90420C9-B67E-4D7F-AF80-9092626DF9C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E90420C9-B67E-4D7F-AF80-9092626DF9C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E90420C9-B67E-4D7F-AF80-9092626DF9C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6738C04F-C56F-4B01-BCAC-625BA13FBC3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6738C04F-C56F-4B01-BCAC-625BA13FBC3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6738C04F-C56F-4B01-BCAC-625BA13FBC3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6738C04F-C56F-4B01-BCAC-625BA13FBC3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 		{876EE632-BBB8-4CAA-B6BA-9E657316807A} = {CA79B6F2-A0DB-4510-8BCB-DD799E213DE7}
 		{59883629-D480-4C15-A24D-F8ACDBEEFCF6} = {3B6D6B3C-A515-4BD1-AE02-709FFAD570E2}
 		{E90420C9-B67E-4D7F-AF80-9092626DF9C9} = {59883629-D480-4C15-A24D-F8ACDBEEFCF6}
+		{6738C04F-C56F-4B01-BCAC-625BA13FBC3B} = {E7A8B7A4-B8FD-493C-819C-63B7BC6D0FB4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A2045B23-319C-4DFB-A7A3-7AC1DEE94E75}
