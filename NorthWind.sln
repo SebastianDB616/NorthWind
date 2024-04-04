@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NorthWind.Repositories.EFCo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.UseCasesDTOs", "NorthWind.UseCasesDTOs\NorthWind.UseCasesDTOs.csproj", "{6738C04F-C56F-4B01-BCAC-625BA13FBC3B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.UseCases", "NorthWind.UseCases\NorthWind.UseCases.csproj", "{4501D8F2-0C8E-451D-9DA2-7D844B72A9B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{6738C04F-C56F-4B01-BCAC-625BA13FBC3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6738C04F-C56F-4B01-BCAC-625BA13FBC3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6738C04F-C56F-4B01-BCAC-625BA13FBC3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4501D8F2-0C8E-451D-9DA2-7D844B72A9B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4501D8F2-0C8E-451D-9DA2-7D844B72A9B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4501D8F2-0C8E-451D-9DA2-7D844B72A9B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4501D8F2-0C8E-451D-9DA2-7D844B72A9B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +52,7 @@ Global
 		{59883629-D480-4C15-A24D-F8ACDBEEFCF6} = {3B6D6B3C-A515-4BD1-AE02-709FFAD570E2}
 		{E90420C9-B67E-4D7F-AF80-9092626DF9C9} = {59883629-D480-4C15-A24D-F8ACDBEEFCF6}
 		{6738C04F-C56F-4B01-BCAC-625BA13FBC3B} = {E7A8B7A4-B8FD-493C-819C-63B7BC6D0FB4}
+		{4501D8F2-0C8E-451D-9DA2-7D844B72A9B3} = {E7A8B7A4-B8FD-493C-819C-63B7BC6D0FB4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A2045B23-319C-4DFB-A7A3-7AC1DEE94E75}
