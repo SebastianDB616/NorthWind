@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace NorthWind.UseCases.CreateOrder
 {
-    internal class CreateOrderInteractor : IRequestHandler<CreateOrderInputPort, int>
+    public class CreateOrderInteractor : IRequestHandler<CreateOrderInputPort, int>
     {
         readonly IOrderRepository OrderRepository;
         readonly IOrderDetailRepository OrderDetailRepository;
